@@ -9,7 +9,6 @@ use crate::args::SayArgs;
 use crate::EscapeResult::{Char, Hex, Oct, Return};
 
 mod args;
-mod test;
 
 // Define the command-line arguments using the clap crate
 lazy_static! {
